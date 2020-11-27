@@ -1,13 +1,18 @@
-export function fizzBuzzea(number) {
+export function fizzBuzzea(number){
+  let numbers = []
 
-  let fizzBuzz = [number]
-  for (const number of numbers){
-    if (number % 3 !== 0){
-      fuzzBuzz.push = "fizz"
+  for (let i = 1 ; i < number ; i++){
+    numbers = [1, i]
+    if (i%3 === 0 && i%5 === 0){
+      numbers.push("fizzbuzz")
+    }else if (i%3 === 0){
+      numbers.push("fizz")
+    }else if (i%5 === 0) {
+      numbers.push("buzz")
     }else{
-      fuzzBuzz.push = number +1
+      numbers.push(i + 1)
     }
+    return numbers
   }
-  return fizzBuzz
-  }
-
+}
+fizzBuzzea(3)
