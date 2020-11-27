@@ -1,8 +1,8 @@
-import { fizzBuzzea } from './fizz-buzz'
+import { fizzBuzzea } from './fizz-buzz.js'
 
 describe('fizzbuzz', () => {
   it('should change threes', () => {
-    const given = [1, 2, 3]
+    const given = 3
 
     const actual = fizzBuzzea(given)
 
@@ -12,7 +12,7 @@ describe('fizzbuzz', () => {
 
 describe('fizzbuzz', () => {
   it('should change fives', () => {
-    const given = [1, 2, 3, 4, 5]
+    const given = 5
 
     const actual = fizzBuzzea(given)
 
@@ -22,7 +22,7 @@ describe('fizzbuzz', () => {
 
 describe('fizzbuzz', () => {
   it('should change threes and fives', () => {
-    const given = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    const given = 15
 
     const actual = fizzBuzzea(given)
 
