@@ -1,6 +1,6 @@
 import { Sing } from './99-bottles'
 
-describe('Sing', fn () => {
+describe('entireSong', fn () => {
   it ('Should sing the entire song 99 Bottles', fn () =>{
     const canta = new Sing()
     const given = 'No more bottles of beer on the wall, no more bottles of beer.\n' +
