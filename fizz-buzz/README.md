@@ -1,4 +1,4 @@
-# Fizz Buzz
+.# Fizz Buzz
 
 Create a program that introducing a number it return a list that starts on 1 and ends with that number. Every time a number in that list is divisible by 3 replace the number with "fizz". Every time a number is divisible by 5 replace the number with "buzz'.
 
