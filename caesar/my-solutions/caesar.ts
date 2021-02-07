@@ -1,6 +1,5 @@
-export function caesar(phrase: string): string {
+export function caesar(phrase: string, increase: number): string {
   const arr: string[] = phrase.split('')
-  let increase: number = 1
   const newArr: string[] = []
 
   for (let i: number = 0; i < arr.length; i++) {
