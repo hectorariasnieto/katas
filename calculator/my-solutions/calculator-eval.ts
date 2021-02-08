@@ -1,3 +1,3 @@
-export function calculator(operation: string): number {
+export function catKiller(operation: string): number {
   return eval(operation)
 }
